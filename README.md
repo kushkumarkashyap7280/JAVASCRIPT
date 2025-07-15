@@ -1,6 +1,7 @@
 # 🧪✨ JavaScript & MERN Learning Journal ✨🧪
 
 Welcome to my **JavaScript & MERN Journey**! 🚀💻
+[Notes](https://drive.google.com/file/d/1JJ2CLi5lXmgDaP5Nk5nSBxlS_aDP4miH/view?usp=sharing)
 
 Here I document my daily progress as I explore **JavaScript (🟨)** and gradually move toward building full-stack apps with the **MERN stack (🌐)**.
 This serves as:
@@ -85,4 +86,20 @@ If you want to connect, collaborate, or just say hi — feel free to reach out!
 
 🚀 Happy Coding & Learning! 🚀
 
-# Daily Log
+---
+
+## 📅 Day 1
+
+[Day 1 – Variables, Data Types, and Basics](./day_001/) →
+
+<details>
+<summary>Quick Access: Day 1 Topics & Code</summary>
+
+- [JavaScript Variables: Declaration, Assignment, and Scope](./day_001/README.md#javascript-variables-declaration-assignment-and-scope) ([Variables.js](./day_001/Variables.js))
+- [JavaScript Data Types: Primitive and Non-Primitive](./day_001/README.md#javascript-data-types-primitive-and-non-primitive) ([Datatypes.js](./day_001/Datatypes.js))
+- [JavaScript Type Casting (Type Conversion)](./day_001/README.md#javascript-type-casting-type-conversion) ([Typecasting.js](./day_001/Typecasting.js))
+- [JavaScript Operators](./day_001/README.md#javascript-operators) ([Operators.js](./day_001/Operators.js))
+- [Stack vs Heap Memory in JavaScript](./day_001/README.md#stack-vs-heap-memory-in-javascript) ([Stack_and_Heap.js](./day_001/Stack_and_Heap.js))
+- [JavaScript Strings](./day_001/README.md#javascript-strings) ([Strings.js](./day_001/Strings.js))
+
+</details>
