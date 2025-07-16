@@ -103,3 +103,18 @@ If you want to connect, collaborate, or just say hi — feel free to reach out!
 - [JavaScript Strings](./day_001/README.md#javascript-strings) ([Strings.js](./day_001/Strings.js))
 
 </details>
+
+## 📅 Day 2
+
+[Day 2 – Arrays, Objects, Functions, Numbers, Dates & Math](./day_002/) →
+
+<details>
+<summary>Quick Access: Day 2 Topics & Code</summary>
+
+- [JavaScript Arrays: Creation, Methods, and Static Methods](./day_002/README.md#array-object--methods) ([Arrays.js](./day_002/Arrays.js))
+- [JavaScript Objects: Types, Methods, and Confusing Points](./day_002/README.md#object-object--methods) ([Objects.js](./day_002/Objects.js))
+- [JavaScript Functions: Types, Patterns, and Features](./day_002/README.md#function-object--methods) ([Functions.js](./day_002/Functions.js))
+- [JavaScript Numbers & Math: Number Object, Math Methods, Random](./day_002/README.md#number-object--methods) ([Numbers.js](./day_002/Numbers.js))
+- [JavaScript Dates: Date Object, Methods, Formatting](./day_002/README.md#date-object--methods) ([Dates.js](./day_002/Dates.js))
+
+</details>
