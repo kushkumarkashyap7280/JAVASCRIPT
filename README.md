@@ -118,3 +118,20 @@ If you want to connect, collaborate, or just say hi — feel free to reach out!
 - [JavaScript Dates: Date Object, Methods, Formatting](./day_002/README.md#date-object--methods) ([Dates.js](./day_002/Dates.js))
 
 </details>
+
+## 📅 Day 3
+
+[Day 3 – Scope, Hoisting, Control Flow, Loops, Maps, and Array Methods](./day_003/) →
+
+<details>
+<summary>Quick Access: Day 3 Topics & Code</summary>
+
+- [Scope & Hoisting: Concepts and Examples](./day_003/README.md#scope--hoisting-concepts-and-examples) ([Scope.js](./day_003/Scope.js))
+- [Arrow Functions & 'this': Concepts and Examples](./day_003/README.md#arrow-functions--this-concepts-and-examples) ([Arrow_function.js](./day_003/Arrow_function.js))
+- [Call Stack & Control Flow](./day_003/README.md#call-stack--control-flow-in-javascript) ([Control_flow.js](./day_003/Control_flow.js))
+- [Loops: for, while, do...while, forEach, break, continue](./day_003/README.md#loops-in-javascript) ([Loops.js](./day_003/Loops.js))
+- [Map Class: Usage, Methods, Confusions](./day_003/README.md#map-in-javascript) ([Maps.js](./day_003/Maps.js))
+- [Object-Specific Loops: forEach, for...of, for...in](./day_003/README.md#object-specific-loops-in-javascript) ([Object_specific_loops.js](./day_003/Object_specific_loops.js))
+- [High Order Array Functions: forEach, map, filter, reduce, chaining](./day_003/README.md#high-order-array-functions-in-javascript) ([Arrays_specific_loops.js](./day_003/Arrays_specific_loops.js))
+
+</details>
