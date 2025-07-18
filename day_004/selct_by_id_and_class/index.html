@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select by ID and Class - DOM Demo</title>
+  </head>
+  <body>
+    <!-- Section: Explanation -->
+    <section>
+      <h2>
+        When to use getElementById vs getElementsByClassName / querySelector
+      </h2>
+      <ul>
+        <li>
+          <strong>ID</strong>: Use <code>getElementById</code> when you need to
+          select a single, unique element. IDs should be unique in the document.
+        </li>
+        <li>
+          <strong>Class</strong>: Use <code>getElementsByClassName</code> or
+          <code>querySelectorAll</code> when you want to select one or more
+          elements that share a class name.
+        </li>
+        <li>
+          <strong>querySelector</strong>: Use <code>querySelector</code> for
+          more flexible CSS-style selection (first match), and
+          <code>querySelectorAll</code> for all matches.
+        </li>
+      </ul>
+    </section>
+
+    <!-- Elements for demonstration -->
+    <h1 id="main-title">Main Title (ID)</h1>
+    <p class="info">Paragraph 1 (class: info)</p>
+    <p class="info highlight">Paragraph 2 (class: info highlight)</p>
+    <p class="highlight">Paragraph 3 (class: highlight)</p>
+    <button id="byIdBtn">Highlight by ID</button>
+    <button id="byClassBtn">Highlight by Class</button>
+    <button id="byQueryBtn">Highlight by QuerySelector</button>
+
+    <!-- New Section: Child Selection Demo -->
+    <section>
+      <h2>Child Selection Methods</h2>
+      <ul>
+        <li>
+          <code>firstChild</code> / <code>lastChild</code>: Selects the
+          first/last child node (can be an element, text, or comment).
+        </li>
+        <li>
+          <code>firstElementChild</code> / <code>lastElementChild</code>:
+          Selects the first/last child that is an element (ignores
+          text/comments).
+        </li>
+        <li>
+          <code>children</code>: Returns an HTMLCollection of all child
+          elements.
+        </li>
+        <li>
+          <code>childNodes</code>: Returns all child nodes (elements, text,
+          comments).
+        </li>
+      </ul>
+      <div
+        id="parent-demo"
+        style="border: 1px solid #ccc; padding: 10px; margin-top: 10px"
+      >
+        <span>Child 1</span>
+        <span>Child 2</span>
+        <span>Child 3</span>
+        <span>Child 4</span>
+      </div>
+      <button id="firstChildBtn">Highlight First Child</button>
+      <button id="lastChildBtn">Highlight Last Child</button>
+      <button id="allChildrenBtn">Highlight All Children</button>
+    </section>
+
+    <section>
+      <h2>innerText vs innerHTML vs textContent</h2>
+      <ul>
+        <li>
+          <code>innerText</code>: Gets/sets the visible text content of an
+          element, respects styling (like display:none) and line breaks.
+        </li>
+        <li>
+          <code>innerHTML</code>: Gets/sets the HTML markup inside an element
+          (including tags).
+        </li>
+        <li>
+          <code>textContent</code>: Gets/sets all text content of an element,
+          including hidden text, but ignores HTML tags.
+        </li>
+      </ul>
+      <div
+        id="demo-inner"
+        style="border: 1px solid #aaa; padding: 10px; margin-bottom: 10px"
+      >
+        <b>Hello</b> <span style="display: none">(hidden)</span> <i>World!</i>
+      </div>
+      <button id="showInnerText">Show innerText</button>
+      <button id="showInnerHTML">Show innerHTML</button>
+      <button id="showTextContent">Show textContent</button>
+      <div id="output-inner" style="margin-top: 10px; color: blue"></div>
+    </section>
+
+    <section>
+      <h2>Converting NodeList & HTMLCollection to Array</h2>
+      <ul>
+        <li>
+          <code>querySelectorAll</code> returns a <strong>NodeList</strong> (not
+          a real array).
+        </li>
+        <li>
+          <code>getElementsByClassName</code> returns an
+          <strong>HTMLCollection</strong> (not a real array).
+        </li>
+        <li>
+          To use array methods (like <code>map</code>, <code>filter</code>,
+          <code>forEach</code>), convert them to an array using
+          <code>Array.from()</code> (best way) or
+          <code>[...nodelist]</code> (spread syntax).
+        </li>
+      </ul>
+      <div id="array-demo">
+        <span class="arr-item">A</span>
+        <span class="arr-item">B</span>
+        <span class="arr-item">C</span>
+      </div>
+      <button id="showNodeList">Show NodeList as Array</button>
+      <button id="showHTMLCollection">Show HTMLCollection as Array</button>
+      <div id="output-array" style="margin-top: 10px; color: green"></div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Roboto:wght@400;700;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #18181b 0%, #23272f 100%);
+  font-family: 'Orbitron', 'Roboto', 'Segoe UI', Arial, sans-serif;
+  color: #f5f5f5;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+main, .container {
+  background: #23272f;
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  min-width: 300px;
+  max-width: 90vw;
+  border: 1px solid #33353b;
+  font-weight: 900;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  font-weight: 900;
+  color: #fff;
+}
+
+button, input, select {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  border: 1px solid #44454a;
+  margin: 0.5em 0;
+  color: #f5f5f5;
+  font-weight: 900;
+}
+
+input, select {
+  background: #18181b;
+}
+
+button {
+  background: #44454a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-weight: 900;
+}
+button:hover {
+  background: #fff;
+  color: #18181b;
+}

@@ -104,6 +104,17 @@ If you want to connect, collaborate, or just say hi — feel free to reach out!
 
 </details>
 
+**Focus:**
+
+- Understanding variables and their scope
+- Exploring primitive and non-primitive data types
+- Type casting and conversion
+- Using operators
+- Memory concepts: stack vs heap
+- String basics and manipulation
+
+---
+
 ## 📅 Day 2
 
 [Day 2 – Arrays, Objects, Functions, Numbers, Dates & Math](./day_002/) →
@@ -118,6 +129,16 @@ If you want to connect, collaborate, or just say hi — feel free to reach out!
 - [JavaScript Dates: Date Object, Methods, Formatting](./day_002/README.md#date-object--methods) ([Dates.js](./day_002/Dates.js))
 
 </details>
+
+**Focus:**
+
+- Working with arrays and their methods
+- Understanding objects and their properties
+- Function types, patterns, and features
+- Number and Math object usage
+- Date object and formatting
+
+---
 
 ## 📅 Day 3
 
@@ -135,3 +156,60 @@ If you want to connect, collaborate, or just say hi — feel free to reach out!
 - [High Order Array Functions: forEach, map, filter, reduce, chaining](./day_003/README.md#high-order-array-functions-in-javascript) ([Arrays_specific_loops.js](./day_003/Arrays_specific_loops.js))
 
 </details>
+
+**Focus:**
+
+- Scope and hoisting in JavaScript
+- Arrow functions and the 'this' keyword
+- Call stack and control flow
+- Looping constructs and patterns
+- Map class and its methods
+- Object-specific and high-order array functions
+
+---
+
+## 📅 Day 4
+
+[Day 4 – JavaScript DOM Basics & Selection Methods](./day_004/) →
+
+<details>
+<summary>Quick Access: Day 4 Topics & Code</summary>
+
+- [HOW_DOM_WORKS: DOM Structure & Manipulation](./day_004/HOW_DOM_WORKS/) ([index.htm](./day_004/HOW_DOM_WORKS/index.htm), [script.js](./day_004/HOW_DOM_WORKS/script.js))
+- [Select by ID and Class, QuerySelector, Child Selection](./day_004/selct_by_id_and_class/) ([index.html](./day_004/selct_by_id_and_class/index.html), [script.js](./day_004/selct_by_id_and_class/script.js))
+- [Create New Element, Parent/Child Navigation](./day_004/create_new_element/) ([index.htm](./day_004/create_new_element/index.htm), [script.js](./day_004/create_new_element/script.js))
+- [Edit and Remove Element](./day_004/edit_and_remove_element/) ([index.htm](./day_004/edit_and_remove_element/index.htm), [script.js](./day_004/edit_and_remove_element/script.js))
+
+</details>
+
+**Focus:**
+
+- DOM structure and manipulation
+- Selecting elements by ID, class, and CSS selectors
+- Navigating parent/child relationships
+- Creating, editing, and removing elements dynamically
+- Understanding text/HTML properties and best practices
+
+---
+
+## 📅 Day 5
+
+[Day 5 – JavaScript Mini Projects](./day_005/) →
+
+<details>
+<summary>Quick Access: Day 5 Projects</summary>
+
+- [Project 1: Background Color Changer](./day_005/Project_01/) ([index.htm](./day_005/Project_01/index.htm), [script.js](./day_005/Project_01/script.js))
+- [Project 2: BMI Calculator](./day_005/Project_02/) ([index.htm](./day_005/Project_02/index.htm), [script.js](./day_005/Project_02/script.js))
+- [Project 3: Live Date and Time](./day_005/Project_03/) ([index.htm](./day_005/Project_03/index.htm), [script.js](./day_005/Project_03/script.js))
+<!-- Project 4: Guess the Number (add when files are restored) -->
+
+</details>
+
+**Focus:**
+
+- Hands-on JavaScript mini projects
+- DOM manipulation, user input, and interactivity
+- Real-world practice: color changer, BMI calculator, live clock, and more
+
+---
