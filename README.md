@@ -213,3 +213,25 @@ If you want to connect, collaborate, or just say hi — feel free to reach out!
 - Real-world practice: color changer, BMI calculator, live clock, and more
 
 ---
+
+## 📅 Day 6
+
+[Day 6 – Async JavaScript, Events, and Mini Projects](./day_006/) →
+
+<details>
+<summary>Quick Access: Day 6 Topics & Projects</summary>
+
+- [Async JavaScript: Event Loop, Microtasks, Macrotasks, Interview Qs](./day_006/Async_javascript/README.md)
+- [Events and Event Listener Demo](./day_006/Events_and_eventListener/index.htm) ([script.js](./day_006/Events_and_eventListener/script.js))
+- [Project 1: Timer & Alert Demo](./day_006/Projects/p1/index.htm) ([script.js](./day_006/Projects/p1/script.js))
+- [Project 2: Random Background Color Changer](./day_006/Projects/p2/index.htm) ([script.js](./day_006/Projects/p2/script.js))
+
+</details>
+
+**Focus:**
+
+- Deep dive into async JavaScript: event loop, microtasks, macrotasks
+- Practice with event listeners and DOM events
+- Mini projects: timer/alert demo, random background color changer
+
+---
