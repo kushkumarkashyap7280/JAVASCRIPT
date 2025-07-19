@@ -235,3 +235,23 @@ If you want to connect, collaborate, or just say hi — feel free to reach out!
 - Mini projects: timer/alert demo, random background color changer
 
 ---
+
+## 📅 Day 7
+
+[Day 7 – Promises, fetch, and API Practice](./day_007/) →
+
+<details>
+<summary>Quick Access: Day 7 Topics & Projects</summary>
+
+- [Promises in JavaScript](./day_007/Promises_in_js/README.md) ([Promise.js](./day_007/Promises_in_js/Promise.js))
+- [How API Works Demo](./day_007/How_Api_works/index.htm) ([script.js](./day_007/How_Api_works/script.js), [style.css](./day_007/How_Api_works/style.css))
+
+</details>
+
+**Focus:**
+
+- Understanding the fetch API and its microtask priority
+- Deep dive into Promises and async workflows
+- Practicing API requests and DOM updates
+
+---
