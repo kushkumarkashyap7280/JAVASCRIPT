@@ -27,44 +27,16 @@ You attach handlers using `.then()` for success and `.catch()` for errors.
 
 ```mermaid
 graph TD
-  A[Promise Created<br/>(Pending)] -->|resolve| B[Fulfilled]
+  A[Promise Created] -->|resolve| B[Fulfilled]
   A -->|reject| C[Rejected]
-  B --> D[.then() handler runs]
-  C --> E[.catch() handler runs]
+  B --> D[.then() runs]
+  C --> E[.catch() runs]
 ```
 
 ---
 
 ## Example Usage
 
-```js
-const myPromise = new Promise((resolve, reject) => {
-  // Simulate async work
-  setTimeout(() => {
-    const success = true;
-    if (success) {
-      resolve("Operation successful!");
-    } else {
-      reject("Something went wrong.");
-    }
-  }, 1000);
-});
-
-myPromise
-  .then((result) => {
-    console.log(result); // Operation successful!
-  })
-  .catch((error) => {
-    console.error(error);
-  });
 ```
 
----
-
-## Files
-
-- `Promise.js`: Contains code examples and explanations about promises in JavaScript.
-
----
-
-**Explore the code and comments in `Promise.js` for more details and practical examples!**
+```

@@ -12,14 +12,14 @@ The `fetch` API is used for making network requests in JavaScript. It returns a 
 
 ```mermaid
 graph TD
-  A[JS Call Stack] --> B[fetch() called]
-  B --> C[Web APIs: Network Request]
-  C --> D[Promise (Pending)]
-  D -->|Response arrives| E[Promise Resolved]
+  A[Call Stack] --> B[fetch() called]
+  B --> C[Web APIs]
+  C --> D[Promise Pending]
+  D -->|Response| E[Promise Resolved]
   E --> F[.then() callback]
   F --> G[Microtask Queue]
-  G --> H[Back to Call Stack]
-  H --> I[Macrotask Queue (e.g., setTimeout)]
+  G --> H[Call Stack]
+  H --> I[Macrotask Queue]
 ```
 
 - **Microtasks** (like fetch's `.then()`, Promises) always run before the next macrotask.
