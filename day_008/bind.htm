@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIND METHOD</title>
+  </head>
+  <body>
+    <button id="button">click me</button>
+  </body>
+  <script>
+
+      class react{
+        constructor(){
+          this.server = "https://localhost:3000";
+          this.name = "my local project";
+
+          document.body.querySelector('#button').addEventListener('click',this.clickme.bind(this));
+        }
+
+        clickme(){
+          console.log("clicked");
+          console.log(this)    
+          console.log(this.server);    // in brower console it show undefined if not used bind ;
+
+        }
+      }
+      const app = new react();
+  </script>
+</html>

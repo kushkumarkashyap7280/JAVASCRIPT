@@ -255,3 +255,65 @@ If you want to connect, collaborate, or just say hi — feel free to reach out!
 - Practicing API requests and DOM updates
 
 ---
+
+## 📅 Day 8
+
+[Day 8 – OOP, Prototypes, `this`, Property Descriptors, Getters/Setters, Closures](./day_008/) →
+
+<details>
+<summary>Quick Access: Day 8 Topics & Projects</summary>
+
+- [OOPs.js](./day_008/OOPs.js): Manual objects, function constructors, ES6 classes, OOP pillars
+- [Prototye_in_js.js](./day_008/Prototye_in_js.js): Prototypes, prototype chain, method sharing, inheritance
+- [Class_and_objects.js](./day_008/Class_and_objects.js): Four OOP pillars, static methods, access modifiers
+- [call_and_this.js](./day_008/call_and_this.js): The `call()` method, controlling `this`, method borrowing
+- [bind.htm](./day_008/bind.htm): The `bind()` method, event handler context, browser example
+- [Maths_pi.js](./day_008/Maths_pi.js): Property descriptors, immutability, `Object.defineProperty`
+- [getter_setter.js](./day_008/getter_setter.js): Getters and setters in objects and classes, validation
+- [closures.htm](./day_008/closures.htm): Lexical scoping, closures, data privacy, common pitfalls
+
+</details>
+
+**Focus:**
+
+- Object-Oriented Programming (OOP) in JavaScript
+- Prototypes and prototype chain
+- The `this` keyword, `call()` and `bind()`
+- Property descriptors and immutability
+- Getters and setters for encapsulation and validation
+- Lexical scoping and closures for data privacy and advanced patterns
+
+---
+
+## 🎉 Core JavaScript Journey Completed! 🎉
+
+After a dedicated journey through all the fundamentals and advanced concepts of JavaScript, I’ve completed the **core JavaScript** section of my learning path. This includes:
+
+- Variables, data types, operators, and memory concepts
+- Functions, scope, hoisting, and closures
+- Arrays, objects, maps, and high-order functions
+- DOM manipulation and events
+- Asynchronous JavaScript: callbacks, promises, fetch, and the event loop
+- Object-Oriented Programming (OOP), prototypes, `this`, property descriptors
+- Getters/setters, lexical scoping, and closures
+
+**What’s Next?**
+
+Now that I have a strong foundation in JavaScript, the next steps are:
+
+1. **BUILD PROJECTS**
+   - Build beautiful, responsive web pages
+   - Learn modern CSS (Flexbox, Grid, animations)
+2. **Deepen JavaScript with ES6+ and browser APIs**
+   - Explore modules, async/await, and advanced patterns
+3. **Move to Frontend Frameworks**
+   - Start with React (⚛️) for building dynamic UIs
+4. **Learn Backend Development**
+   - Node.js and Express for server-side logic
+   - MongoDB for databases
+5. **Full MERN Stack Projects**
+   - Combine everything to build real-world, full-stack applications
+
+**This repo will continue to grow as I document my progress through HTML, CSS, React, Node, and beyond!**
+
+---
