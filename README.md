@@ -288,6 +288,109 @@ If you want to connect, collaborate, or just say hi — feel free to reach out!
 - Lexical scoping and closures for data privacy and advanced patterns
 
 ---
+# 📋 JavaScript Core Knowledge Test – Kush Kumar
+
+This document summarizes the **JavaScript Core Questions Test** I answered during a self-assessment session to evaluate my understanding of the language before moving to advanced topics.
+
+---
+
+## 🚀 Questions & Topics Covered
+
+### ✅ Question 1
+**What is the difference between `var`, `let`, and `const`?**
+- Scope
+- Re-declaration
+- Re-assignment
+
+---
+
+### ✅ Question 2
+**What is the output of the following code and why?**
+```js
+console.log(a);
+var a = 5;
+
+console.log(b);
+let b = 10;
+```
+- Explanation of `undefined` and `ReferenceError`.
+
+---
+
+### ✅ Question 3
+**What is the difference between:**
+```js
+function foo() { }
+const bar = function() { }
+const baz = () => { }
+```
+- Hoisting
+- `this` behavior
+- Can they be constructors?
+
+---
+
+### ✅ Question 4
+**What’s the difference between `==` and `===`?**
+- Example where `==` is true but `===` is false.
+
+---
+
+### ✅ Question 5
+**What is a closure in JavaScript?**
+- Why are closures useful?
+- Give an example.
+
+---
+
+### ✅ Question 6
+**What is the difference between the call stack and the event loop?**
+- How does async code (`setTimeout`, Promises) work with them?
+
+---
+
+### ✅ Question 7
+**What is the difference between `prototype` and `__proto__`?**
+- Relationship between them.
+- How do they relate to inheritance?
+
+---
+
+### ✅ Question 8
+**What is the difference between `Object.defineProperty` and direct property assignment?**
+- Why/when would you use `defineProperty`?
+
+---
+
+### ✅ Question 9
+**What is the difference between `.call()`, `.apply()`, and `.bind()`?**
+- When to use each?
+- Example of each.
+
+---
+
+### ✅ Question 10
+**What is the difference between stack memory and heap memory in JavaScript?**
+- When are values stored in each?
+- Examples of stack vs heap.
+
+---
+
+## 🌟 Outcome
+All questions were answered successfully, with clear understanding of:
+- JavaScript syntax and semantics
+- Scope, closures, memory, and async behavior
+- Prototypes and inheritance
+- Core methods and APIs
+
+---
+
+📅 **Date:** July 20, 2025  
+👨‍💻 **By:** Kush Kumar
+
+---
+
+🚀 On to the next phase: React, Node.js, and Full-Stack Development!
 
 ## 🎉 Core JavaScript Journey Completed! 🎉
 
