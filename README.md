@@ -1,4 +1,8 @@
-# 🧪✨ JavaScript & MERN Learning Journal ✨🧪
+<div align="center">
+  <img src="https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png" alt="JavaScript Logo" width="120"/>
+</div>
+
+# <h1 align="center">JAVASCRIPT</h1>
 
 Welcome to my **JavaScript & MERN Journey**! 🚀💻
 [Notes](https://drive.google.com/file/d/1JJ2CLi5lXmgDaP5Nk5nSBxlS_aDP4miH/view?usp=sharing)
